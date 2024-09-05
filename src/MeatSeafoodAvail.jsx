@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react"
 import useFetch from "./useFetch"
 import Loader from "./Loader"
-import Button from "./Button"
 
 export default function MeatSeafoodAvail() {
   const [meatSeafood, setMeatSeafood] = useState([])
   const [availabilityStatus, setAvailabilityStatus] = useState({})
-  const { get, loading } = useFetch("http://localhost:5173")
+  const { get, loading } = useFetch("https://harvest-go-vercel.vercel.app/")
 
   useEffect(() => {
     get("/api/meatseafoodavail")
