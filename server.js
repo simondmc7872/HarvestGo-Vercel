@@ -13,6 +13,9 @@ const app = express()
 const pool = new Pool({
   connectionString:
     "postgresql://database_owner:8vnE1McYmXBa@ep-red-field-a64umv97.us-west-2.aws.neon.tech/database?sslmode=require",
+  ssl: {
+    rejectUnauthorized: false,
+  },
 })
 
 app.use("/images", express.static(path.join(__dirname, "public/images")))
