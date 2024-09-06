@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.52.1",
+    "express": "^4.17.1",
     "clsx": "^1.2.1",
     "cors": "^2.8.5",
     "pg": "^8.12.0",
