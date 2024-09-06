@@ -40,7 +40,12 @@ app.get("/meatseafoodavail", async (req, res) => {
   }
 })
 
-const PORT = process.env.PORT || 3000
+// Serverless Vercel Functions already take care of this //
+// This code was only used for local development/testing //
+
+/* const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`)
-})
+}) */
+
+export default app
