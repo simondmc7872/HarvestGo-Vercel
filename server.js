@@ -25,7 +25,7 @@ app.use(
   })
 )
 
-app.get("/api/meatseafoodavail", async (req, res) => {
+app.get("/meatseafoodavail", async (req, res) => {
   try {
     const result = await pool.query(`
       SELECT * FROM Products
