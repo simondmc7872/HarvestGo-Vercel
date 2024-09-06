@@ -4,6 +4,10 @@
     {
       "src": "/meatseafoodavail",
       "dest": "server.js"
+    },
+    {
+      "src": "/app/(.*)",
+      "dest": "/app/$1"
     }
   ]
 }
