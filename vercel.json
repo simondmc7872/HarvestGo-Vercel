@@ -2,12 +2,8 @@
   "version": 2,
   "routes": [
     {
-      "src": "/app/(.*)",
+      "src": "/meatseafoodavail",
       "dest": "server.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
     }
   ]
 }
