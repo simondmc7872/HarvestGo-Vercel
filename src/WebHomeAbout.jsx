@@ -9,9 +9,9 @@ function WebHomeAbout() {
       <main className="profile-main">
         <section className="profile-intro">
           <p>
-            Hi, my name is Simon and I am a passionate software developer
-            transitioning from a robust background in finance and international
-            business to the dynamic world of web development. With degrees in
+            Hi, my name is Simon and I am a software developer transitioning
+            from a robust background in finance and international business to
+            the dynamic world of web development. With degrees in
             Finance,International Business, and a minor in Chinese, I've honed
             my analytical skills and attention to detail through years of
             experience in bookkeeping and accounting.
