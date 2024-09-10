@@ -2,7 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/api/(.*)", // Any requests goes to the server
+      "source": "/api/(.*)", // Any api requests goes to the server
       "destination": "/api/server.js"
     },
     {
