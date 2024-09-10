@@ -2,8 +2,12 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)", // Any requests goes to the server
       "destination": "/api/server.js"
+    },
+    {
+      "source": "/(.*)", // For all other client-side react routes handled by react router
+      "destination": "/index.html"
     }
   ]
 }
