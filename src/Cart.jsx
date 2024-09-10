@@ -27,8 +27,8 @@ export default function Cart({ cart }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "http://localhost:5173/",
-          cancelUrl: "http://localhost:5173/",
+          successUrl: "https://harvest-go-vercel.vercel.app/app",
+          cancelUrl: "https://harvest-go-vercel.vercel.app/app",
           customerEmail: email,
         })
         .then((response) => {
