@@ -1,12 +1,14 @@
 {
   "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/server.js"
+    }
+  ],
   "rewrites": [
     {
-      "source": "/api/(.*)", // Any api requests goes to the server
-      "destination": "/api/server.js"
-    },
-    {
-      "source": "/(.*)", // For all other client-side react routes handled by react router
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
