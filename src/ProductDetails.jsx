@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
-import { NavLink, Routes, Route, useParams, Outlet } from "react-router-dom"
+import { NavLink, useParams, Outlet } from "react-router-dom"
 import useFetch from "./useFetch"
 
-export default function ProductDetails(props) {
+export default function ProductDetails() {
   const [product, setProduct] = useState({})
   const { get } = useFetch("https://res.cloudinary.com/dzrmzpfs4/raw/upload/")
   const params = useParams()

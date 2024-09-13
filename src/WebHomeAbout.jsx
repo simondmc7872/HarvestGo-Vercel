@@ -1,5 +1,3 @@
-import React from "react"
-
 function WebHomeAbout() {
   return (
     <div className="profile-containerA">
