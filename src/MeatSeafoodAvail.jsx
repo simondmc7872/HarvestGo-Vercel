@@ -5,7 +5,7 @@ import Loader from "./Loader"
 export default function MeatSeafoodAvail() {
   const [meatSeafood, setMeatSeafood] = useState([])
   const [availabilityStatus, setAvailabilityStatus] = useState({})
-  const { get, loading } = useFetch("https://harvest-go-vercel.vercel.app")
+  const { get, loading } = useFetch("https://harvest-go.vercel.app")
 
   useEffect(() => {
     get("/api/meatseafoodavail")
