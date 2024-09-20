@@ -21,7 +21,7 @@ const pool = new Pool({
 app.use("/images", express.static(path.join(__dirname, "public/images")))
 app.use(
   cors({
-    origin: "https://harvest-go-vercel.vercel.app",
+    origin: "https://harvest-go.vercel.app",
   })
 )
 
