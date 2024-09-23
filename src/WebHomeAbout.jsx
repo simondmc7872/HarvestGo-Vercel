@@ -51,9 +51,9 @@ function WebHomeAbout() {
           <p>
             As I transition into this new career, I am eager to leverage my
             business acumen and technical skills to contribute to innovative
-            projects and collaborate with forward-thinking teams. Feel free to
-            reach out to learn more about me or if your business requires my
-            skillsets.
+            projects and collaborate with forward-thinking teams. Please don't
+            hesitate to connect if you'd like to learn more or explore how my
+            expertise can add value to your business.
           </p>
         </section>
       </main>
