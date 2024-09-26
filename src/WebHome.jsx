@@ -54,7 +54,7 @@ function WebHome() {
             />
             <img
               src="gitlogo.png"
-              width="40"
+              width="45"
               height="auto"
               alt=""
               className="imageshadow"

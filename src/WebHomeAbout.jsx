@@ -43,7 +43,7 @@ function WebHomeAbout() {
             </li>
             <li>
               <strong>Git:</strong> Managing version control and ensuring
-              seamless code integration across projects
+              seamless code integration
             </li>
           </ul>
           <p>
