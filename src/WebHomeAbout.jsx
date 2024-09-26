@@ -41,6 +41,10 @@ function WebHomeAbout() {
               <strong>PostgreSQL:</strong> Designing and managing reliable
               databases
             </li>
+            <li>
+              <strong>Git:</strong> Managing version control and ensuring
+              seamless code integration across projects
+            </li>
           </ul>
           <p>
             Currently, I am expanding my expertise by learning{" "}

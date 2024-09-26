@@ -52,6 +52,13 @@ function WebHome() {
               alt=""
               className="imageshadow"
             />
+            <img
+              src="gitlogo.png"
+              width="40"
+              height="auto"
+              alt=""
+              className="imageshadow"
+            />
           </div>
         </div>
         <div className="containerR">
