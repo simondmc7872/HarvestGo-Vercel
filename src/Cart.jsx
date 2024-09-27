@@ -3,9 +3,10 @@ import { loadStripe } from "@stripe/stripe-js"
 import Input from "./Input"
 import Button from "./Button"
 
-const stripeLoadedPromise = loadStripe(
-  "pk_test_51OvsoLKwRZyDoq3ExDCEWrRC5aeH4Y7GW6F1HKunl2Ls92cUJdJIXxBjpeVlWmC1QbvAfjwqxcLhV8dTPTyGqqVZ00sbsN2qx7"
-)
+const stripeApiKey = import.meta.env.VITE_STRIPE_API_KEY
+const successCancelUrl = import.meta.env.VITE_SUCCESS_CANCEL_URL
+
+const stripeLoadedPromise = loadStripe(stripeApiKey)
 
 export default function Cart({ cart }) {
   const totalPrice = cart.reduce(
@@ -27,8 +28,8 @@ export default function Cart({ cart }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "https://harvest-go-vercel.vercel.app/app",
-          cancelUrl: "https://harvest-go-vercel.vercel.app/app",
+          successUrl: successCancelUrl,
+          cancelUrl: successCancelUrl,
           customerEmail: email,
         })
         .then((response) => {

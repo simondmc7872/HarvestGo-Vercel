@@ -2,10 +2,12 @@ import { useState, useEffect } from "react"
 import useFetch from "./useFetch"
 import Loader from "./Loader"
 
+const reactAppBaseUrl = import.meta.env.VITE_REACT_APP_API_BASE_URL
+
 export default function MeatSeafoodAvail() {
   const [meatSeafood, setMeatSeafood] = useState([])
   const [availabilityStatus, setAvailabilityStatus] = useState({})
-  const { get, loading } = useFetch("https://simon-appdev.vercel.app")
+  const { get, loading } = useFetch(reactAppBaseUrl)
 
   useEffect(() => {
     get("/api/meatseafoodavail")

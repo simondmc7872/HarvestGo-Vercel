@@ -3,16 +3,19 @@ import pkg from "pg"
 import path from "path"
 import cors from "cors"
 import { fileURLToPath } from "url"
+import dotenv from "dotenv"
+dotenv.config()
 
 const { Pool } = pkg
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const postgresConnectionString = process.env.VITE_POSTGRES_CONNECTION_STRING
+const corsOriginUrl = process.env.VITE_CORS_ORIGIN_URL
 
 const app = express()
 
 const pool = new Pool({
-  connectionString:
-    "postgresql://database_owner:8vnE1McYmXBa@ep-red-field-a64umv97.us-west-2.aws.neon.tech/database?sslmode=require",
+  connectionString: postgresConnectionString,
   ssl: {
     rejectUnauthorized: false,
   },
@@ -21,7 +24,7 @@ const pool = new Pool({
 app.use("/images", express.static(path.join(__dirname, "public/images")))
 app.use(
   cors({
-    origin: "https://simon-appdev.vercel.app",
+    origin: corsOriginUrl,
   })
 )
 

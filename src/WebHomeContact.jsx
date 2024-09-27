@@ -1,3 +1,6 @@
+const email = import.meta.env.VITE_EMAIL_ADDRESS
+const phone = import.meta.env.VITE_PHONE_NUMBER
+
 function WebHomeContact() {
   return (
     <div className="profile-containerC">
@@ -7,10 +10,10 @@ function WebHomeContact() {
       <main className="profile-mainC">
         <section className="contact-details">
           <p>
-            Email: <a href="mailto:Simondmc@gmail.com">Simondmc@gmail.com</a>
+            Email: <a href={`mailto:${email}`}>{email}</a>
           </p>
           <p>
-            Phone: <a href="tel:+18082180638">(808)218-0638</a>
+            Phone: <a href={`tel:${phone}`}>{phone}</a>
           </p>
         </section>
       </main>
