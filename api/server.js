@@ -9,7 +9,7 @@ dotenv.config()
 const { Pool } = pkg
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const postgresConnectionString = process.env.DATABASE_URL
+const postgresConnectionString = process.env.POSTGRES_CONNECTION_STRING
 const corsOriginUrl = process.env.CORS_ORIGIN_URL
 
 const app = express()
