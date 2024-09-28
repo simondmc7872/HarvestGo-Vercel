@@ -9,6 +9,8 @@ export default function MeatSeafoodAvail() {
   const [availabilityStatus, setAvailabilityStatus] = useState({})
   const { get, loading } = useFetch(reactAppBaseUrl)
 
+  console.log("API Base URL:", reactAppBaseUrl)
+
   useEffect(() => {
     get("/api/meatseafoodavail")
       .then((data) => {
