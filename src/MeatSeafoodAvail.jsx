@@ -9,8 +9,6 @@ export default function MeatSeafoodAvail() {
   const [availabilityStatus, setAvailabilityStatus] = useState({})
   const { get, loading } = useFetch(reactAppBaseUrl)
 
-  console.log("API Base URL:", reactAppBaseUrl)
-
   useEffect(() => {
     get("/api/meatseafoodavail")
       .then((data) => {
@@ -20,6 +18,10 @@ export default function MeatSeafoodAvail() {
       })
       .catch((error) => console.log("Could not load data", error))
   }, [])
+
+  useEffect(() => {
+    console.log("Updated meatSeafood state:", meatSeafood) // Logs the state change
+  }, [meatSeafood])
 
   function itemAvailability(item) {
     let availability
