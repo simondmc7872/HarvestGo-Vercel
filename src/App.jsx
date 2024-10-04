@@ -17,7 +17,7 @@ import WebHomeContact from "./WebHomeContact"
 import WebHomeApp from "./WebHomeApp"
 
 function App() {
-  const [cart, setCart] = useState(function () {
+  const [cart, setCart] = useState(() => {
     let savedCart = []
     try {
       savedCart = JSON.parse(localStorage.getItem("cart")) || []
