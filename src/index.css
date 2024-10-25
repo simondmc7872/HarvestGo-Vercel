@@ -617,9 +617,9 @@ input:focus {
   }
   .nav-brand {
     font-size: 1.5rem;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
-  .navbarM {
+  .navbarMedia {
     flex-direction: column;
     align-items: center;
   }
