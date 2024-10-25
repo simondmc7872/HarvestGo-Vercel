@@ -601,7 +601,7 @@ input:focus {
   padding-top: 30px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 740px) {
   .home-layout,
   .about-layout,
   .products-grid,
@@ -612,7 +612,7 @@ input:focus {
     order: -1;
   }
   .containerMedia {
-    max-width: 700px;
+    max-width: 740px;
     margin: 0 auto;
     padding: 0;
   }
