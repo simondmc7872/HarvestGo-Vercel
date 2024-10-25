@@ -622,9 +622,9 @@ input:focus {
     margin-bottom: 1px;
   }
   .navbarMedia {
-    flex-direction: column;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
   }
   .navbarMedia li {
