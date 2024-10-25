@@ -611,7 +611,7 @@ input:focus {
   .home-image {
     order: -1;
   }
-  .container {
+  .containerMedia {
     max-width: 700px;
     margin: 0 auto;
     padding: 0;
