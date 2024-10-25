@@ -611,6 +611,22 @@ input:focus {
   .home-image {
     order: -1;
   }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-brand {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .nav-item {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  .nav-cart {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
 }
 
 /* Loader */
