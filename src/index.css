@@ -626,19 +626,24 @@ input:focus {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 0;
+    margin: 0;
   }
   .navbarMedia li {
     display: block;
     width: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .nav-item {
     font-size: 1rem;
+    margin: 0;
   }
   .nav-cart {
     margin-top: 1px;
     font-size: 1.1rem;
-    padding: 2px 5px;
+    padding: 1px 5px;
   }
 }
 
