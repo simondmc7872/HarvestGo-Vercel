@@ -617,15 +617,15 @@ input:focus {
   }
   .nav-brand {
     font-size: 1.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
   .nav-item {
-    padding: 1px 0;
     font-size: 1rem;
   }
   .nav-cart {
     margin-top: 1px;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 2px 5px;
   }
 }
 
