@@ -617,8 +617,7 @@ input:focus {
   }
   .nav-brand {
     font-size: 1.5rem;
-    margin-bottom: 10px;
-    justify-content: flex-start;
+    margin-bottom: 5px;
   }
   .nav-item {
     padding: 1px 0;
@@ -626,7 +625,7 @@ input:focus {
   }
   .nav-cart {
     margin-top: 1px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
