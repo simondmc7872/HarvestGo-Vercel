@@ -614,6 +614,7 @@ input:focus {
   .navbar {
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
   }
   .nav-brand {
     font-size: 1.5rem;
@@ -622,6 +623,10 @@ input:focus {
   .navbarMedia {
     flex-direction: column;
     align-items: center;
+    display: flex;
+  }
+  .navbarMedia li {
+    display: inline-block;
   }
   .nav-item {
     font-size: 1rem;
