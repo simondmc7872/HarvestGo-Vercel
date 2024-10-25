@@ -616,8 +616,10 @@ input:focus {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 100vw;
     overflow: hidden;
     margin: 0 auto;
+    padding: 0;
   }
   .nav-brand {
     font-size: 1.5rem;
