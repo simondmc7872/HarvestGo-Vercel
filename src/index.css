@@ -601,7 +601,7 @@ input:focus {
   padding-top: 30px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .home-layout,
   .about-layout,
   .products-grid,
