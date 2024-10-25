@@ -619,6 +619,10 @@ input:focus {
     font-size: 1.5rem;
     margin-bottom: 2px;
   }
+  .navbarM {
+    flex-direction: column;
+    align-items: center;
+  }
   .nav-item {
     font-size: 1rem;
   }

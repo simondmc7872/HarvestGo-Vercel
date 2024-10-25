@@ -11,7 +11,7 @@ export default function Navbar(props) {
       <NavLink to="/app" className="nav-brand">
         HarvestGO
       </NavLink>
-      <ul>
+      <ul className="navbarM">
         <li className="nav-item">
           <NavLink
             className={({ isActive }) => (isActive ? "active" : "")}
