@@ -621,11 +621,11 @@ input:focus {
     justify-content: flex-start;
   }
   .nav-item {
-    padding: 10px 0;
+    padding: 1px 0;
     font-size: 1rem;
   }
   .nav-cart {
-    margin-top: 10px;
+    margin-top: 1px;
     font-size: 1.2rem;
   }
 }
