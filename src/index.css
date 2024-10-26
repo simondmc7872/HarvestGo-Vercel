@@ -624,6 +624,8 @@ input:focus {
   .containerMedia {
     width: 100%;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 0;
   }
@@ -641,12 +643,7 @@ input:focus {
     margin: 0 auto;
   }
   .nav-brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 1.5rem;
-    width: 100%;
     padding: 0;
   }
   .navbarMedia {
