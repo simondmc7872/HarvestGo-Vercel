@@ -678,7 +678,7 @@ input:focus {
     font-weight: 600;
     padding: 1rem;
     border: 0;
-    margin: 0.5rem;
+    margin: 1.5rem 0 0.5rem 0;
     transition:
       background-color 200ms,
       color 200ms;
