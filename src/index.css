@@ -612,6 +612,11 @@ input:focus {
 }
 
 @media (max-width: 700px) {
+  .container {
+    max-width: 700px;
+    margin: 0;
+    padding: 0;
+  }
   body {
     padding: 0;
     margin: 0;
