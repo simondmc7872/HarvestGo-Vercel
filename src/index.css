@@ -629,11 +629,13 @@ input:focus {
   }
   .navbar {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     width: 100%;
     overflow: hidden;
+  }
+  .navbar a {
+    padding: 0.5rem 1rem;
   }
   .nav-brand {
     font-size: 1.5rem;
