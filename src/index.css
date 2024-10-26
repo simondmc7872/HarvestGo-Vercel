@@ -671,6 +671,18 @@ input:focus {
     font-size: 1.1rem;
     padding: 0.25rem 1rem;
   }
+  .btn {
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5rem;
+    border: 0;
+    transition:
+      background-color 200ms,
+      color 200ms;
+  }
 }
 
 /* Loader */
