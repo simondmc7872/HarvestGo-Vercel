@@ -627,19 +627,6 @@ input:focus {
     margin: 0 auto;
     padding: 0;
   }
-  .btn {
-    border-radius: 3px;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 13px 40px;
-    border: 0;
-    transition:
-      background-color 200ms,
-      color 200ms;
-    margin-top: 1rem;
-  }
   .navbar {
     display: flex;
     flex-direction: column;
@@ -656,7 +643,7 @@ input:focus {
   .nav-brand {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-self: center;
     font-size: 1.5rem;
     width: 100%;
     padding: 0;
@@ -683,6 +670,9 @@ input:focus {
     margin-top: 1rem;
     font-size: 1.1rem;
     padding: 0.25rem 1rem;
+  }
+  .btn-Media {
+    margin-top: 1rem;
   }
 }
 
