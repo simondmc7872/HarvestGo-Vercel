@@ -631,8 +631,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-    align-items: center;
+    gap: 0.5rem;
     width: 100%;
     overflow: hidden;
   }
