@@ -634,6 +634,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     overflow: hidden;
     padding: 0;
@@ -641,7 +642,6 @@ input:focus {
   }
   .navbar a {
     padding: 0.25rem 1rem;
-    margin: 0 auto;
   }
   .nav-brand {
     font-size: 1.5rem;
