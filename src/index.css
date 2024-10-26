@@ -673,11 +673,10 @@ input:focus {
   }
   .btn {
     border-radius: 3px;
-    display: inline-block;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 1.1rem;
     font-weight: 600;
-    padding: 0.5rem;
+    padding: 1rem 80px;
     border: 0;
     transition:
       background-color 200ms,
