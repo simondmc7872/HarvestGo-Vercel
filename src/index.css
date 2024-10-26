@@ -612,6 +612,9 @@ input:focus {
 }
 
 @media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
   .home-layout,
   .about-layout,
   .products-grid,
@@ -626,7 +629,7 @@ input:focus {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
   .navbar {
@@ -638,7 +641,7 @@ input:focus {
     text-align: center;
     overflow: hidden;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
   }
   .navbar a {
     padding: 0.25rem 1rem;
