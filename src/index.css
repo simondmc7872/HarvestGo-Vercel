@@ -675,9 +675,10 @@ input:focus {
   .nav-item {
     font-size: 1rem;
     margin: 0;
+    padding: 0;
   }
   .nav-cart {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 1.1rem;
     padding: 0.25rem 1rem;
   }
@@ -688,7 +689,7 @@ input:focus {
     font-weight: 600;
     padding: 1rem;
     border: 0;
-    margin: 1.5rem 0 0.5rem 0;
+    margin: 2rem 0 0 0;
     transition:
       background-color 200ms,
       color 200ms;
