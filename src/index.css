@@ -640,7 +640,6 @@ input:focus {
   }
   .nav-brand {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
   }
   .navbarMedia {
     display: flex;
@@ -661,9 +660,9 @@ input:focus {
     margin: 0;
   }
   .nav-cart {
-    margin-top: 1px;
+    margin-top: 0.5rem;
     font-size: 1.1rem;
-    padding: 1px 5px;
+    padding: 0.25rem 1rem;
   }
 }
 
