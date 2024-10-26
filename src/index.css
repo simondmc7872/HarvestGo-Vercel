@@ -642,11 +642,10 @@ input:focus {
   }
   .nav-brand {
     display: flex;
-    align-self: center;
+    text-align: center;
     font-size: 1.5rem;
     width: 100%;
     padding: 0;
-    margin: 0 auto;
   }
   .navbarMedia {
     display: flex;
