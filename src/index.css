@@ -625,13 +625,16 @@ input:focus {
     width: 100%;
     max-width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     padding: 0;
   }
   .navbar {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     overflow: hidden;
     padding: 0;
     margin: 0 auto;
