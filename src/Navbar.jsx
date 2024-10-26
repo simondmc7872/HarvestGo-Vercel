@@ -49,7 +49,7 @@ export default function Navbar(props) {
           <li>
             <NavLink
               to="/app/cart"
-              className="nav-item nav-cart btn btn-accent btn-media"
+              className="nav-item nav-cart btn btn-accent"
             >
               Cart ({cartCount})
             </NavLink>
