@@ -655,10 +655,8 @@ input:focus {
       color 200ms;
   }
   .profile-iconM img {
-    width: 20%;
+    width: 70px;
     height: auto;
-    position: relative;
-    z-index: 1;
   }
   .profile-iconM p {
     margin: 0;
