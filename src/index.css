@@ -657,6 +657,8 @@ input:focus {
   .profile-iconM img {
     width: 20%;
     height: auto;
+    position: relative;
+    z-index: 1;
   }
   .profile-iconM p {
     margin: 0;
