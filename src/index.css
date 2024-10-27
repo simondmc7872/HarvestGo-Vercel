@@ -623,14 +623,59 @@ input:focus {
     width: 100%;
     overflow-x: hidden;
   }
-  .home-layout,
+  .home-layout {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    padding-top: 35px;
+    text-align: center;
+  }
+  .home-layout h1 {
+    margin: 0.2rem auto;
+    padding: 15px 15px 10px 15px;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .home-layout p {
+    margin: 0 auto;
+    padding: 1px 20px 1px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: normal;
+  }
+  .home-layout a:first-of-type {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border: 0;
+    margin: 1.1rem 0 0 0;
+    transition:
+      background-color 200ms,
+      color 200ms;
+  }
+  .profile-iconM img {
+    width: 20%;
+    height: auto;
+  }
+  .profile-iconM p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+  }
+  .home-image {
+    order: -1;
+    height: auto;
+    width: 86%;
+    justify-self: center;
+  }
+  .rounded {
+    border-radius: 15px;
+  }
   .about-layout,
   .products-grid,
   .product-details-layout {
     grid-template-columns: 1fr;
-  }
-  .home-image {
-    order: -1;
   }
   .containerMedia {
     width: 100%;
@@ -653,6 +698,7 @@ input:focus {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
+    padding: 0;
   }
   .navbar a {
     margin: 0;
@@ -663,14 +709,14 @@ input:focus {
   .nav-brand {
     font-size: 1.5rem;
     padding: 0;
-    line-height: 0.5;
+    line-height: 1;
   }
   .navbarMedia {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-self: center;
     padding: 0;
+    margin: 0;
   }
   .nav-item {
     font-size: 1rem;
@@ -693,6 +739,9 @@ input:focus {
     transition:
       background-color 200ms,
       color 200ms;
+  }
+  .containerMedia li:last-of-type {
+    margin-top: 0.25rem;
   }
 }
 
