@@ -611,140 +611,6 @@ input:focus {
   padding-top: 30px;
 }
 
-@media (max-width: 700px) {
-  .container {
-    max-width: 700px;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .home-layout {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-    padding-top: 35px;
-    text-align: center;
-  }
-  .home-layout h1 {
-    margin: 0.2rem auto;
-    padding: 15px 15px 10px 15px;
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  .home-layout p {
-    margin: 0 auto;
-    padding: 1px 20px 1px 20px;
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: normal;
-  }
-  .home-layout a:first-of-type {
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 0.4rem 0.8rem;
-    border: 0;
-    margin: 1.1rem 0 0 0;
-    transition:
-      background-color 200ms,
-      color 200ms;
-  }
-  .profile-iconM img {
-    width: 70px;
-    height: auto;
-  }
-  .profile-iconM p {
-    margin: 0;
-    padding: 0;
-    font-size: 0.75rem;
-  }
-  .home-image {
-    order: -1;
-    height: auto;
-    width: 86%;
-    justify-self: center;
-  }
-  .rounded {
-    border-radius: 15px;
-  }
-  .about-layout,
-  .products-grid,
-  .product-details-layout {
-    grid-template-columns: 1fr;
-  }
-  .containerMedia {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-  }
-  .navbar ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    padding: 0;
-  }
-  .navbar a {
-    margin: 0;
-    padding: 0.25rem 1rem;
-    width: auto;
-    text-align: center;
-  }
-  .nav-brand {
-    font-size: 1.5rem;
-    padding: 0;
-    line-height: 1;
-  }
-  .navbarMedia {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    padding: 0;
-    margin: 0;
-  }
-  .nav-item {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-cart {
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    padding: 0.25rem 1rem;
-  }
-  .btn {
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem;
-    border: 0;
-    margin: 2rem 0 0 0;
-    transition:
-      background-color 200ms,
-      color 200ms;
-  }
-  .containerMedia li:last-of-type {
-    margin-top: 0.25rem;
-  }
-}
-
 /* Loader */
 .spinner {
   animation: rotator 1.4s linear infinite;
@@ -1147,4 +1013,331 @@ input:focus {
   font-size: 13px;
   margin: 0px 0px 0px 5px;
   margin-top: -3.5px;
+}
+
+/* media for mobile and older tablet viewing <= 768 pixel width*/
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .home-layout {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    padding-top: 35px;
+    text-align: center;
+  }
+
+  .home-layout h1 {
+    margin: 0.2rem auto;
+    padding: 15px 15px 10px 15px;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .home-layout p {
+    margin: 0 auto;
+    padding: 1px 20px 1px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .home-layout a:first-of-type {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border: 0;
+    margin: 1.1rem 0 0 0;
+    transition:
+      background-color 200ms,
+      color 200ms;
+  }
+
+  .profile-iconM img {
+    width: 70px;
+    height: auto;
+  }
+
+  .profile-iconM p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+  }
+
+  .home-image {
+    order: -1;
+    height: auto;
+    width: 86%;
+    justify-self: center;
+  }
+
+  .rounded {
+    border-radius: 15px;
+  }
+
+  .about-layout,
+  .products-grid,
+  .product-details-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .containerMedia {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+  }
+
+  .navbar a {
+    margin: 0;
+    padding: 0.25rem 1rem;
+    width: auto;
+    text-align: center;
+  }
+
+  .nav-brand {
+    font-size: 1.5rem;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .navbarMedia {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-cart {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    padding: 0.25rem 1rem;
+  }
+
+  .btn {
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border: 0;
+    margin: 2rem 0 0 0;
+    transition:
+      background-color 200ms,
+      color 200ms;
+  }
+
+  .containerMedia li:last-of-type {
+    margin-top: 0.25rem;
+  }
+
+  .profile-page {
+    background-color: var(--neutral-1);
+    box-shadow:
+      0px 3px 7px 1px rgba(255, 255, 255, 0.07),
+      0px 6px 13px 1px rgba(255, 255, 255, 0.07),
+      0px -6px 13px 1px rgba(255, 255, 255, 0.07),
+      0px -3px 7px 1px rgba(255, 255, 255, 0.07);
+    max-width: 768px;
+    width: 100%;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .webcontainermedia {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbarM {
+    background-color: var(--neutral-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .navbarM ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0.25rem;
+    text-align: center;
+  }
+
+  .navbarM li {
+    display: flex;
+    line-height: 0.5rem;
+  }
+
+  .navbarM a {
+    margin: 0;
+    padding: 0.25rem 1rem;
+    width: auto;
+    text-align: center;
+  }
+
+  .nav-brandM {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-shadow: -1.75px 3px 1px rgba(255, 255, 255, 0.3);
+    font-weight: 100;
+    line-height: 1;
+  }
+
+  .webNavbarMedia {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-itemM a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile-containerM {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-self: center;
+  }
+
+  .profile-mainM {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .containerL {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nameM {
+    font-size: 32px;
+  }
+
+  .headlineM {
+    font-size: 24px;
+  }
+
+  .descriptionM {
+    font-size: 18px;
+  }
+
+  .containerImg {
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .containerImg img {
+    width: 35px;
+  }
+
+  .containerR {
+    margin-left: 0;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .containerTR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10%;
+  }
+
+  .containerTR p {
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+    line-height: 1rem;
+  }
+
+  .containerTR img {
+    padding: 10px 0 5px 0;
+  }
+
+  .containerBR {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .containerR img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .containerBBR p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
 }
