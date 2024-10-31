@@ -1180,7 +1180,7 @@ input:focus {
     max-width: 768px;
     justify-self: center;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     overflow: hidden;
   }
 
@@ -1201,8 +1201,8 @@ input:focus {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 0;
-    padding-top: 1rem;
+    margin: 0rem 0 0.05rem 0;
+    padding: 0.5rem 0 0.5rem 0;
   }
 
   .navbarM ul {
@@ -1256,7 +1256,8 @@ input:focus {
     flex-direction: column;
     align-items: center;
     background-color: var(--neutral-1);
-    min-height: calc(100vh - 249px);
+    margin: 3rem 0 4rem 0;
+    padding: 0 1rem;
     overflow: hidden;
     font-family: "Roboto", sans-serif, system-ui;
   }
@@ -1301,29 +1302,41 @@ input:focus {
   }
 
   .containerR {
-    margin-left: 0;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding-top: 30px;
     align-items: center;
     text-align: center;
-    padding-top: 0;
-    margin-left: 0;
   }
 
   .containerTR {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 10%;
+    width: 20%;
   }
 
   .containerTR p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    padding-top: 2rem;
     margin-bottom: 5px;
-    line-height: 1rem;
+    line-height: 0.75rem;
+    text-wrap: nowrap;
   }
 
   .containerTR img {
-    padding: 10px 0 5px 0;
+    padding-top: 2.75rem;
+    padding-bottom: 0;
+    padding-left: 0.25rem;
+    max-width: 25%;
+    height: auto;
+  }
+  .containerBR img {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
   }
 
   .containerBR {
@@ -1333,7 +1346,6 @@ input:focus {
 
   .containerR img {
     width: 100%;
-    max-width: 100%;
     height: auto;
   }
 
