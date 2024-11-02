@@ -1397,4 +1397,123 @@ input:focus {
   .profile-intro ul li {
     margin-bottom: 10px;
   }
+
+  .profile-containerP {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral-5);
+    margin: 1.5rem 1rem;
+    padding: 1rem;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif, system-ui;
+  }
+
+  .headerP {
+    text-align: right;
+    font-size: 1.4rem;
+    margin: 4rem 0 1rem 0;
+  }
+
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .containerMain section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.308);
+  }
+
+  .containerMain img {
+    width: 100%;
+    max-width: 485px;
+    border-radius: 10px;
+    border: 2px solid #c3bfbf;
+  }
+
+  .containerMain p {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    text-align: left;
+  }
+
+  .containerMain section:nth-of-type(2) {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "text";
+  }
+
+  .containerMain section:nth-of-type(2) img {
+    grid-area: image;
+    width: 100%;
+    max-width: 485px;
+    border-radius: 10px;
+    border: 1px solid #c3bfbf;
+  }
+
+  .containerMain section:nth-of-type(2) p {
+    grid-area: text;
+  }
+
+  .profile-containerC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--neutral-5);
+    margin: 1.5rem 5rem;
+    padding: 1rem;
+    min-height: calc(100vh - 229px);
+    font-family: "Roboto", sans-serif, system-ui;
+  }
+
+  .profile-headerC h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .profile-mainC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-details {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 2rem 3.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.354);
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--neutral-2);
+  }
+
+  .contact-details p {
+    margin: 10px 0;
+  }
+
+  .contact-details a {
+    color: var(--primary-2);
+    text-decoration: none;
+  }
+
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
 }
