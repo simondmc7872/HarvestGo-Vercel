@@ -1088,8 +1088,6 @@ input:focus {
     border-radius: 15px;
   }
 
-  .about-layout,
-  .products-grid,
   .product-details-layout {
     grid-template-columns: 1fr;
   }
@@ -1515,5 +1513,58 @@ input:focus {
 
   .contact-details a:hover {
     text-decoration: underline;
+  }
+  .about-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+
+  .about-layout h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .about-layout p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .about-layout img {
+    margin: 1.5rem 0 0 0;
+    order: -1;
+    width: 7.5rem;
+    height: auto;
+    align-self: center;
+  }
+
+  .products-layout {
+    padding: 0;
+    margin: 3rem 0.25rem;
+  }
+
+  .products-layout h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .center-desc {
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+  }
+
+  .products-layout p {
+    font-size: 1.2rem;
+  }
+
+  .products-grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+    margin: 0;
+    padding: 0;
   }
 }
