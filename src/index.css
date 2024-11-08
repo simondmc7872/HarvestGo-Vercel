@@ -1597,4 +1597,40 @@ input:focus {
     padding: 0;
     border-radius: 20px;
   }
+
+  .cart-layout {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    line-height: 1rem;
+  }
+
+  .cart-layouts {
+    padding-bottom: 1rem;
+    font-size: 1.85rem;
+  }
+
+  .table-cart tbody td:first-child {
+    display: block;
+    text-align: left;
+    padding: 0rem 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .table-cart tbody td:first-child img {
+    display: block;
+    margin: 0;
+    width: 80%;
+    height: auto;
+    padding: 0.4rem 0;
+  }
+
+  .table th,
+  .table td {
+    padding: 12px;
+  }
+
+  .pay-form {
+    padding-top: 65px;
+  }
 }
