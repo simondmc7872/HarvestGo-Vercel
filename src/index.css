@@ -1557,9 +1557,9 @@ input:focus {
   }
 
   .products-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
   }
 
   .product {
@@ -1632,5 +1632,114 @@ input:focus {
 
   .pay-form {
     padding-top: 65px;
+  }
+
+  .meatseafood-layout {
+    padding: 2.5rem 1rem;
+  }
+
+  .meatseafood-layout h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .meatseafood-layout p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .meatseafood-table {
+    display: inline-block;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .meatseafood-table thead {
+    background-color: white;
+    color: white;
+  }
+
+  .meatseafood-table th {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+  }
+
+  .meatseafood-table td {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1.5px solid var(--neutral-4);
+    padding: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .meatseafood-table th {
+    font-weight: 600;
+  }
+
+  .meatseafood-table tbody tr:nth-child(even) {
+    background-color: var(--neutral-5);
+  }
+
+  .meatseafood-table tbody tr:hover {
+    background-color: var(--primary-5);
+  }
+
+  .meatseafood-table img {
+    width: 17rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .meatseafood-button {
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    font-size: 11px;
+    font-weight: 600;
+    align-self: center;
+    align-content: center;
+    color: white;
+    background-color: var(--primary-2);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 200ms;
+  }
+
+  .meatseafood-button:hover {
+    background-color: var(--primary-3);
+  }
+
+  .meatseafood-availability {
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    color: var(--neutral-1);
+    min-height: 1.5rem;
+  }
+
+  .meatseafood-availability.High {
+    color: green;
+  }
+
+  .meatseafood-availability.Medium {
+    color: orange;
+  }
+
+  .meatseafood-availability.Low {
+    color: red;
+  }
+
+  .meatseafood-availability.out-of-stock {
+    color: var(--accent-1);
   }
 }

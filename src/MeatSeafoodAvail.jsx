@@ -113,7 +113,7 @@ export default function MeatSeafoodAvail() {
         </p>
       </div>
 
-      <div className=".products-grid">
+      <div className="products-grid">
         {loading && <Loader />}
         {!loading && meatSeafood.length > 0 && (
           <table className="meatseafood-table">
