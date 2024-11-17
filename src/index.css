@@ -1755,7 +1755,7 @@ input:focus {
     display: flex;
     justify-self: center;
     align-self: center;
-    padding-top: 35px;
+    padding-top: 45px;
     width: 140px;
     height: auto;
   }
