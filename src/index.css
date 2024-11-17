@@ -1685,7 +1685,7 @@ input:focus {
   }
 
   .meatseafood-table tbody tr:nth-child(even) {
-    background-color: var(--neutral-5);
+    background-color: white;
   }
 
   .meatseafood-table tbody tr:hover {
