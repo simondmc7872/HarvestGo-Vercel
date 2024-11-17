@@ -795,9 +795,9 @@ input:focus {
 
 .headerP {
   display: flex;
+  gap: 1px;
   flex-direction: column;
   text-align: right;
-  padding: 0;
   margin-bottom: 85px;
 }
 
@@ -1443,6 +1443,7 @@ input:focus {
 
   .headerP {
     display: flex;
+    gap: 1px;
     text-align: right;
     margin: 4rem 0 1rem 0;
     padding: 0;
