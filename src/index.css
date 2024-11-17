@@ -937,6 +937,11 @@ input:focus {
   margin-top: 10px;
 }
 
+.containerBBR a {
+  font-size: 15px;
+  margin-top: 1px;
+}
+
 @keyframes gradient-border {
   0% {
     background-position: 0% 50%;
@@ -1354,6 +1359,11 @@ input:focus {
   .containerBBR p {
     font-size: 14px;
     margin-top: 8px;
+  }
+
+  .containerBBR a {
+    font-size: 14px;
+    margin-top: 5px;
   }
 
   .profile-containerA {
