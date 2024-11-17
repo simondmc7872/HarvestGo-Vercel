@@ -939,8 +939,8 @@ input:focus {
 
 .github {
   font-size: 15px;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes gradient-border {
@@ -1364,8 +1364,8 @@ input:focus {
 
   .github {
     font-size: 14px;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .profile-containerA {
