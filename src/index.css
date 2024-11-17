@@ -1689,7 +1689,7 @@ input:focus {
   }
 
   .meatseafood-table tbody tr:hover {
-    background-color: none;
+    background-color: white;
   }
 
   .meatseafood-table img {
