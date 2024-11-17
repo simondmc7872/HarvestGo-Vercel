@@ -1755,7 +1755,7 @@ input:focus {
     display: flex;
     align-self: center;
     padding-top: 35px;
-    width: 40px;
+    width: 140px;
     height: auto;
   }
 }
