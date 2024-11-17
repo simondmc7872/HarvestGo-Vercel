@@ -803,11 +803,13 @@ input:focus {
 .headerP p {
   font-size: 2rem;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .headerP a {
   font-size: 1rem;
   padding-top: 0;
+  margin-top: 0;
 }
 
 .containerMain {
@@ -1451,11 +1453,13 @@ input:focus {
   .headerP p {
     font-size: 1.4rem;
     padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .headerP a {
     font-size: 0.7rem;
     padding-top: 0;
+    margin-top: 0;
   }
 
   .containerMain {
