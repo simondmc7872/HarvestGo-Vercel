@@ -1308,7 +1308,7 @@ input:focus {
     flex-direction: column;
     align-items: flex-start;
     margin: 0;
-    padding-top: 15px;
+    padding-top: 0;
     align-items: center;
     text-align: center;
   }
@@ -1329,7 +1329,7 @@ input:focus {
   }
 
   .containerTR img {
-    padding-top: 1.5rem;
+    padding-top: 2.75rem;
     padding-bottom: 0;
     padding-left: 0.25rem;
     max-width: 25%;
