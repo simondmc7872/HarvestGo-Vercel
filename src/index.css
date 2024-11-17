@@ -802,10 +802,12 @@ input:focus {
 
 .headerP p {
   font-size: 2rem;
+  padding-bottom: 0;
 }
 
 .headerP a {
-  font-size: 0.5rem;
+  font-size: 1rem;
+  padding-top: 0;
 }
 
 .containerMain {
@@ -1446,10 +1448,12 @@ input:focus {
 
   .headerP p {
     font-size: 1.4rem;
+    padding-bottom: 0;
   }
 
   .headerP a {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
+    padding-top: 0;
   }
 
   .containerMain {
