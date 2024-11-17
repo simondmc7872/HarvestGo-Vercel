@@ -8,7 +8,7 @@ function WebHomeApp() {
           <strong>HarvestGO</strong>
         </p>
         <a href="https://github.com/simondmc7872/HarvestGo-Vercel.git">
-          GitHub Repository
+          GitHub Repo
         </a>
       </header>
       <main className="containerMain">
