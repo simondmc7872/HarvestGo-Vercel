@@ -32,6 +32,13 @@ function WebHome() {
               className="imageshadow"
             />
             <img
+              src="TypeScript-logo.png"
+              alt=""
+              width="40"
+              height="auto"
+              className="imageshadow"
+            />
+            <img
               src="nodejs.webp"
               width="65"
               height="auto"

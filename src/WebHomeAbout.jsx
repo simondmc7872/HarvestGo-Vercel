@@ -34,6 +34,10 @@ function WebHomeAbout() {
               applications
             </li>
             <li>
+              <strong>TypeScript:</strong> Enhancing code reliability with
+              static typing
+            </li>
+            <li>
               <strong>Node.js and Express:</strong> Developing robust
               server-side applications
             </li>
