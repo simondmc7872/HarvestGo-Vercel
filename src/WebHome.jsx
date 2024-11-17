@@ -67,6 +67,10 @@ function WebHome() {
               className="imageshadow"
             />
           </div>
+          <img
+            src="https://res.cloudinary.com/dzrmzpfs4/image/upload/v1731837228/45404a31-a989-4c51-bc52-c0eb2587e0a1_zbqzim.jpg"
+            alt=""
+          />
         </div>
         <div className="containerR">
           <div className="containerTR">
