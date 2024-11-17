@@ -797,7 +797,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   text-align: right;
-  line-height: 0;
+  padding: 0;
   margin-bottom: 85px;
 }
 
@@ -1445,7 +1445,7 @@ input:focus {
     display: flex;
     text-align: right;
     margin: 4rem 0 1rem 0;
-    line-height: 0;
+    padding: 0;
   }
 
   .headerP p {
