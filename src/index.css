@@ -854,6 +854,14 @@ input:focus {
   gap: 20px;
 }
 
+.containerImage {
+  display: flex;
+  align-items: left;
+  padding-top: 5px;
+  width: 50;
+  height: auto;
+}
+
 .imageshadow {
   filter: drop-shadow(1px 6.5px 3.5px rgba(255, 255, 255, 0.25));
   transition: filter 0.05s ease-in-out;
