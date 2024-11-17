@@ -5,6 +5,9 @@ function WebHomeApp() {
     <div className="profile-containerP">
       <header className="headerP">
         <strong>HarvestGO</strong>
+        <a href="https://github.com/simondmc7872/HarvestGo-Vercel.git">
+          GitHub Repository
+        </a>
       </header>
       <main className="containerMain">
         <section>
