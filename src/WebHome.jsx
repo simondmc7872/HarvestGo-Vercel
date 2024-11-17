@@ -89,10 +89,13 @@ function WebHome() {
           </div>
           <div className="containerBBR">
             <p>Built with React, ExpressJS, & Postgres</p>
-            <a href="https://github.com/simondmc7872/HarvestGo-Vercel.git">
-              GitHub Repository
-            </a>
           </div>
+          <a
+            href="https://github.com/simondmc7872/HarvestGo-Vercel.git"
+            className="github"
+          >
+            GitHub Repository
+          </a>
         </div>
       </main>
     </div>
