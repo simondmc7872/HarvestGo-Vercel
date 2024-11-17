@@ -857,8 +857,8 @@ input:focus {
 .containerImage {
   display: flex;
   align-items: left;
-  padding-top: 5px;
-  width: 50;
+  padding-top: 10px;
+  width: 50px;
   height: auto;
 }
 
