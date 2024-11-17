@@ -935,6 +935,8 @@ input:focus {
   color: white;
   font-size: 15px;
   margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .github {
@@ -942,7 +944,6 @@ input:focus {
   margin: 0;
   padding: 0;
   margin-top: 0;
-  line-height: 0;
 }
 
 @keyframes gradient-border {
@@ -1362,6 +1363,8 @@ input:focus {
   .containerBBR p {
     font-size: 14px;
     margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .github {
@@ -1369,7 +1372,6 @@ input:focus {
     margin: 0;
     padding: 0;
     margin-top: 0;
-    line-height: 0;
   }
 
   .profile-containerA {
