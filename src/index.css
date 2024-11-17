@@ -1750,4 +1750,12 @@ input:focus {
   .meatseafood-availability.out-of-stock {
     color: var(--accent-1);
   }
+
+  .containerImage {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 0 0;
+    width: 100px;
+    height: auto;
+  }
 }
